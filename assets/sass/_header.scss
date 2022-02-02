@@ -1,0 +1,29 @@
+
+// header{
+//     margin-top: 10%;
+// }
+nav{
+    @include flexit;
+    border-bottom: 1px solid $color-light;
+    color: $color-dark;
+    h1{
+        font-size: 2.3rem;
+        margin: 1%;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin-bottom: 3%;
+    }
+    li{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: lighter;
+        font-size: 1rem;
+    }
+    a:hover{
+    @include hoverEffect;
+    }
+    
+}

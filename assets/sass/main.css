@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Open+Sans:wght@300;400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Libre Caslon Display", serif;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  color: #3d4246;
+  font-size: 0.8rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid #f5f5f5;
+  color: #3d4246;
+}
+nav h1 {
+  font-size: 2.3rem;
+  margin: 1%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 3%;
+}
+nav li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+nav a:hover {
+  border-bottom: 1px solid #3d4246;
+  padding-bottom: 5px;
+}
+
+.subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.subscription-text {
+  width: 80%;
+  margin-bottom: 2%;
+}
+.subscription-text h2 {
+  margin: 3%;
+}
+.subscription-image img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 5%;
+}
+.options h3 {
+  grid-column: span 2;
+  letter-spacing: 4px;
+  font-size: 1.6rem;
+  margin: 8%;
+}
+.options h4 {
+  letter-spacing: 4px;
+  margin-bottom: 5%;
+}
+.options li {
+  color: #3d4246;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  padding: 3%;
+}
+.options-seasonal {
+  width: 85%;
+  margin-bottom: 5%;
+}
+.options-classic {
+  width: 80%;
+}
+.options-size {
+  width: 80%;
+  margin: 3% 0;
+}
+.options-delivery {
+  width: 80%;
+  margin: 3% 0;
+}
+.options .btn {
+  background-color: #3d4246;
+  color: #FFf;
+  font-family: "Libre Caslon Display", serif;
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  border-radius: 2px;
+  padding: 5px;
+  grid-column: span 2;
+  transition: all 0.3s ease-in;
+}
+.options .btn:hover {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+.terms {
+  width: 80%;
+  margin: 0 auto;
+}
+.terms article img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.terms article p {
+  margin: 5% 0;
+}
+.terms .terms-text {
+  font-size: 1rem;
+  color: red;
+}
+
+footer {
+  background-color: #f5f5f5;
+  font-family: "Libre Caslon Display", serif;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+footer ul a:hover {
+  border-bottom: 1px solid #3d4246;
+  padding-bottom: 5px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,103 @@
+.subscription{
+    @include flexit;
+    width: 70%;
+    margin: 0 auto;
+    &-text{
+    width: 80%;
+    margin-bottom: 2%;
+        h2{
+        margin:3%;
+        }
+    }
+    &-image{
+        img{
+        width: 100%;
+        object-fit: contain;
+        }
+    }
+}
+.options{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 5%;
+    h3{
+        grid-column: span 2;
+        letter-spacing: 4px;
+        font-size: 1.6rem;
+        margin: 8%;
+    }
+    h4{
+        letter-spacing: 4px;
+        margin-bottom: 5%;
+    }   
+        li{
+            color: $color-dark;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: lighter;
+            font-size: 1rem;
+            padding: 3%;
+        }
+    &-seasonal{
+    width: 85%;
+    margin-bottom: 5%;
+    }
+    &-classic{
+        width: 80%;
+    }
+    &-size{
+        width: 80%;
+        margin: 3% 0;
+    }
+    &-delivery{
+        width: 80%;
+        margin: 3% 0;
+    }
+    .btn{
+        background-color: $color-dark;
+        color: #FFf;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: .8rem;
+        letter-spacing: 4px;
+        border-radius: 2px;
+        padding: 5px;
+        grid-column: span 2;
+        transition: all .3s ease-in;
+    }
+    .btn:hover{
+        background-color: $color-light;
+        color: #000;
+    }
+
+}
+.terms{
+    width: 80%;
+    margin: 0 auto;
+    article{
+img{
+    width: 100%;
+    object-fit: contain;
+}
+    p{
+        margin: 5% 0;
+    }
+}
+.terms-text{
+    font-size: 1rem;
+    color: red;
+}
+}
+footer{
+    background-color: $color-light;
+    font-family: 'Libre Caslon Display', serif;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+
+        a:hover{
+            @include hoverEffect;
+        }
+    }
+    
+}
